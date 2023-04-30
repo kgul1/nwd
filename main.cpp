@@ -4,7 +4,7 @@
 
 
 using namespace std;
-int  czy_pierwsza(int a ,int b,int& c){
+int  najwikeszy_dzielnik(int a ,int b,int& c){
     if( a && b <=1){
         return false;
     }
@@ -19,7 +19,7 @@ int main() {
     cin>>a;
     cout<<"podaj b: ";
     cin>>b;
-    if( czy_pierwsza(a,b,c)){
+    if(najwikeszy_dzielnik(a,b,c)){
         cout<<"najwiekszy wspolny dzielnik to: "<<c;
     }
     else {
